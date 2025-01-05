@@ -9,7 +9,7 @@ This is a simple login and registration system developed with Tkinter, Python, a
 - **Password Recovery**: If users forget their password, they can request a password reset.
 - **MySQL Database**: The system uses MySQL to store user information (username, email, and password).
 
-###Important Note About Images
+## Important Note About Images
 For the system to function properly, the images should be placed in the root folder (not inside the images folder).
 This is because the application references the images directly by their filenames, and if they are inside a subfolder the paths won't be resolved correctly.
 
