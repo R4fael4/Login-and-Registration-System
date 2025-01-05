@@ -147,24 +147,11 @@ forgetButton.place(x=920, y=360)
 
 loginButton = Button(root, text='Login',font=('Open Sans', 16, 'bold'), fg='white', bg='black', 
                     activeforeground='white', activebackground='black', bd=0, cursor='hand2', width=19, command=login_user)
-loginButton.place(x=760, y=400)
+loginButton.place(x=760, y=420)
 
 
 orLabel = Label(root, text='─────────  OR ───────── ', font=('Open Sans', 16, 'bold'), fg='black', bg='white')
-orLabel.place(x=720, y=460)
-
-
-facebook_Logo = PhotoImage(file='facebook.png')
-fbLabel = Label(root, image=facebook_Logo, bg='white')
-fbLabel.place(x=780, y=500)
-
-google_Logo = PhotoImage(file='google.png')
-gLabel = Label(root, image=google_Logo, bg='white')
-gLabel.place(x=870, y=500)
-
-twitter_Logo = PhotoImage(file='twitter.png')
-tLabel = Label(root, image=twitter_Logo, bg='white')
-tLabel.place(x=960, y=500)
+orLabel.place(x=720, y=500)
 
 
 signupLabel = Label(root, text=' Dont have an account? ', font=('Open Sans', 11, 'bold'), fg='black', bg='white')
